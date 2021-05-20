@@ -47,9 +47,9 @@ Finally, predicts the sum of number present in Image and Random Number.
   - Pass the predicted number and random number in Sum model and predict the addition of those 2 numbers.
 - So, the output of MNIST model along with random number is fed as input to Sum model
 
+![alt text](https://cdn.mathpix.com/snip/images/kpC-LApSgbrRoNMQmrLe0i_RZEVwkuTiLpJ7nMH7hrc.original.fullsize.png)
 
-
-
+# Data Representation
 
 
 
