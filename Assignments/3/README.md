@@ -1,6 +1,6 @@
-# Assignment 3 - NUMBER AND SUM PREDICTOR
+# Assignment 3 - DIGIT RECOGNIZER AND SUM PREDICTOR
 
-It takes two inputs.
+The project takes two inputs.
 - Image
 - Random Number
 
@@ -8,16 +8,18 @@ Finally, predicts the sum of number present in Image and Random Number.
 
 # Table of contents
 
-- [Project Title](#project-title)
-- [Table of contents](#table-of-contents)
-- [Explanation - Work Flow](#installation)
-- [Data Representation](#usage)
-- [Data Generation Strategy](#development)
-- [How 2 Inputs are Combined?](#contribute)
-- [Results and Evaluation]
-- [Which Loss Functions and Why?]
-- [Training Shots]
-- [Footer]
+- [Project Title](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#assignment-3---number-and-sum-predictor)
+- [Table of contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#table-of-contents)
+- [Explanation - Work Flow](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#explanation---work-flow)
+    - [MNIST Model](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#model-1---mnist-model)
+    - [Sum Model](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#model-2---sum-model)
+- [Data Representation](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#data-representation)
+- [Data Generation Strategy](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#data-generation-strategy)
+- [How 2 Inputs are Combined?](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#how-2-inputs-are-combined)
+- [Results and Evaluation](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#results-and-evaluation)
+- [Which Loss Functions and Why?](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#which-loss-functions-and-why)
+- [Training Shots](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#training-shots)
+- [Footer](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#footer)
 
 # Explanation - Work Flow
 
@@ -87,13 +89,13 @@ Finally, predicts the sum of number present in Image and Random Number.
 - The overall results had accuracy of 20%
 
 # Which Loss Functions and Why?
-- MNIST Model
-    - ### Negative log likelihood
+- ### MNIST Model
+    - Negative log likelihood
         - It is used to minimize loss such that greater the confidence of correct class, lower the loss and lower the confidence of correct class, greater the loss
         - Since, the task of MNIST Model is classification between 10 classes, we want our model to predict the correct class with high accuracy.
         - So, we chose NLL Loss Function to train model such that it learns to predict with high confidence.
-- Sum Model
-    - ### Mean Squared Error
+- ### Sum Model
+    - Mean Squared Error
         - This is the best loss function for Regression like problem.
         - The sum of two numbers also looks like regression problem.
 
@@ -104,7 +106,7 @@ Finally, predicts the sum of number present in Image and Random Number.
 ![alt text](https://cdn.mathpix.com/snip/images/7FezQk6CKv8YQLDr36EWqbvH7dx-veBIR0SD4DN2Ypg.original.fullsize.png)
 
 # Footer
-[(Back to top)](#table-of-contents)
+[(Back to table of contents)](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#table-of-contents)
 
 <!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
 
