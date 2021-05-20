@@ -10,6 +10,7 @@ Finally, predicts the number present in image and sum of number present in Image
 
 - [Project Title](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#assignment-3---digit-recognizer-and-sum-predictor)
 - [Table of contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#table-of-contents)
+- [Code File](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/Digit_Recognizer_and_Sum_Predictor.ipynb)
 - [Explanation - Work Flow](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#explanation---work-flow)
     - [MNIST Model](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#model-1---mnist-model)
     - [Sum Model](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#model-2---sum-model)
