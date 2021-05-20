@@ -20,6 +20,7 @@ Finally, predicts the sum of number present in Image and Random Number.
 - [Which Loss Functions and Why?](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#which-loss-functions-and-why)
 - [Training Shots](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#training-shots)
 - [Footer](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#footer)
+    - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#group-6)
 
 # Explanation - Work Flow
 
