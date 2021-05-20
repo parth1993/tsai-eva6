@@ -4,7 +4,7 @@ The project takes two inputs.
 - Image
 - Random Number
 
-Finally, predicts the sum of number present in Image and Random Number.
+Finally, predicts the number present in image and sum of number present in Image and Random Number.
 
 # Table of contents
 
@@ -80,7 +80,7 @@ Finally, predicts the sum of number present in Image and Random Number.
 
 # How 2 Inputs are Combined?
 
-![alt text](https://cdn.mathpix.com/snip/images/SUdBj-06ggijw-qnTNvWSz3y0ZWzflR582n_xqvDGZI.original.fullsize.png)
+![alt text](https://cdn.mathpix.com/snip/images/5lXcVYKAa-DVmmVWRArtvDpRsgmhi1bvrE_IoOx3O54.original.fullsize.png)
 
 # Results and Evaluation
 
