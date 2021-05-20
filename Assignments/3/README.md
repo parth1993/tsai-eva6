@@ -87,7 +87,6 @@ Finally, predicts the sum of number present in Image and Random Number.
 - The results of MNIST model which predicts number present in Image were evaluated and its accuracy was 98-99% in 1 to 5 epochs.
 - Accuracy kept increasing with each epoch.
 - The results of Sum model was evaluated using RMSE(Root Mean Square Error) and its accuracy was not more than 25%.
-- The overall results had accuracy of 20%
 
 # Which Loss Functions and Why?
 - ### MNIST Model
