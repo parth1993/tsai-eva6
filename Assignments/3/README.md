@@ -50,8 +50,21 @@ Finally, predicts the sum of number present in Image and Random Number.
 ![alt text](https://cdn.mathpix.com/snip/images/SUdBj-06ggijw-qnTNvWSz3y0ZWzflR582n_xqvDGZI.original.fullsize.png)
 
 # Data Representation
-
-
+- Input Image
+    - Grayscale Image - So number of input channel = 1
+    - Image Size = 28x28
+    - Each image was represented as tensor of shape (number_of_images, number_of_channels, number_of_rows, number_of_columns) i.e., (1,1,28,28)
+    - When the above Image was fed to model, it gave tensor of shape (1,1,1,10) as output,
+        - where 10 is for number of classes (0-9)
+    - Finally, the index of largest value(a scalar) was extracted and that is the prediction given by model for number present in image.
+- Input Random Number
+    - In Training,
+        - Random pairs and their sum were generated.
+        - Input for Sum Model was tensor of shape (1,2)
+        - Output for Sum Model was a scalar.
+    - In Testing,
+        - Output of MNIST Model and Random Number were combined as single tensor of shape (1,2)
+        - Output of Sum Model was again a scalar.
 
 # Footer
 [(Back to top)](#table-of-contents)
