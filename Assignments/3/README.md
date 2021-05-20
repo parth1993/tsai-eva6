@@ -8,7 +8,7 @@ Finally, predicts the sum of number present in Image and Random Number.
 
 # Table of contents
 
-- [Project Title](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#assignment-3---number-and-sum-predictor)
+- [Project Title](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#assignment-3---digit-recognizer-and-sum-predictor)
 - [Table of contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#table-of-contents)
 - [Explanation - Work Flow](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#explanation---work-flow)
     - [MNIST Model](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#model-1---mnist-model)
