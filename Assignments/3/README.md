@@ -108,12 +108,8 @@ Finally, predicts the sum of number present in Image and Random Number.
 # Footer
 [(Back to table of contents)](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/3/README.md#table-of-contents)
 
-<!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
-
-Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
-
-Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
-
-<!-- Add the footer here -->
-
-<!-- ![Footer](https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png) -->
+### Group 6
+    - Harshita Sharma
+    - Pankaj S K
+    - Avichal Jain
+    - Aman Kumar
