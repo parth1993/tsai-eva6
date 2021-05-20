@@ -16,6 +16,7 @@ Finally, predicts the sum of number present in Image and Random Number.
 - [How 2 Inputs are Combined?](#contribute)
 - [Results and Evaluation]
 - [Which Loss Functions and Why?]
+- [Training Shots]
 - [Footer]
 
 # Explanation - Work Flow
@@ -93,7 +94,14 @@ Finally, predicts the sum of number present in Image and Random Number.
         - So, we chose NLL Loss Function to train model such that it learns to predict with high confidence.
 - Sum Model
     - ### Mean Squared Error
-        - 
+        - This is the best loss function for Regression like problem.
+        - The sum of two numbers also looks like regression problem.
+
+# Training Shots
+- ### MNIST Model - 5 epoch
+![alt text](https://cdn.mathpix.com/snip/images/N8XIEjUlauvfIspl21NTYkWxAMG3Eh9Dj8W2foU1Lew.original.fullsize.png)
+- ### Sum Model - 50 epoch
+![alt text](https://cdn.mathpix.com/snip/images/7FezQk6CKv8YQLDr36EWqbvH7dx-veBIR0SD4DN2Ypg.original.fullsize.png)
 
 # Footer
 [(Back to top)](#table-of-contents)
