@@ -88,7 +88,8 @@ Finally, predicts the number present in image and sum of number present in Image
 - Accuracy kept increasing with each epoch.
 - The results of Sum model was evaluated using RMSE(Root Mean Square Error) and its accuracy was not more than 25%.
 ![alt text](https://cdn.mathpix.com/snip/images/YNAiTD4c-62SRLgZs7BmcilFjuXAB-AGBel8o50o4Pg.original.fullsize.png)
-![alt text](https://cdn.mathpix.com/snip/images/7Swt5H57Cg9zDlTSUvZ4ICYQq8JDZnaqXxktVwUlFYM.original.fullsize.png)
+![alt text](https://cdn.mathpix.com/snip/images/HtoW5hGL_qhqgmb0MFps1Q6IvRg_SY48d6IkkaTBoQo.original.fullsize.png)
+![alt text](https://cdn.mathpix.com/snip/images/gUj3ooDnAn2XqvCG1309bQIZ0OixTIaFrqzAksU0ptA.original.fullsize.png)
 
 # Which Loss Functions and Why?
 - ### MNIST Model
