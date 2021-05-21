@@ -29,7 +29,7 @@ Finally, predicts the number present in image and sum of number present in Image
     - One for predicting the number present in Image Input
     - Second to perfrom and predict the addition
 - ### Model 1 - MNIST Model
-  - Use convolutional layers, relu activation function and max-pooling to build the model
+  - Used convolutional layers, relu activation function and max-pooling to build the model.
   - Optimizer - Stochastic Gradient Descent (SGD randomly picks one data point from the whole data set to compute derivatives at each iteration to reduce the computations)
   - Loss Function - Negative log likelihood (It is used to minimize loss such that greater the confidence of correct class, lower the loss and lower the confidence of correct class, greater the loss)
 
@@ -47,8 +47,8 @@ Finally, predicts the number present in image and sum of number present in Image
 - Load the dataset using Dataset class and train the sum model
 - Both the models are trained individually.
 - Finally, when an Image and Random Number is given,
-  - Pass the image through MNIST model and predict the number
-  - Pass the predicted number and random number in Sum model and predict the addition of those 2 numbers.
+  - Pass the image through MNIST model and predict the number(output 1)
+  - Pass the predicted number and random number in Sum model and predict the addition of those 2 numbers(output 2)
 - So, the output of MNIST model along with random number is fed as input to Sum model
 
 # Data Representation
@@ -86,7 +86,6 @@ Finally, predicts the number present in image and sum of number present in Image
 # Results and Evaluation
 
 - The results of MNIST model which predicts number present in Image were evaluated and its accuracy is around 99% 5 epochs.
-- Accuracy kept increasing with each epoch.
 - The results of Sum model was evaluated using RMSE(Root Mean Square Error) and its accuracy is around 25% to 30%.
 ![alt text](https://cdn.mathpix.com/snip/images/YNAiTD4c-62SRLgZs7BmcilFjuXAB-AGBel8o50o4Pg.original.fullsize.png)
 ![alt text](https://cdn.mathpix.com/snip/images/HtoW5hGL_qhqgmb0MFps1Q6IvRg_SY48d6IkkaTBoQo.original.fullsize.png)
