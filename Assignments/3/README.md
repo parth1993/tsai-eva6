@@ -1,10 +1,12 @@
 # Assignment 3 - DIGIT RECOGNIZER AND SUM PREDICTOR
 
-The project takes two inputs.
+The neural network takes two inputs.
 - Image
 - Random Number
 
-Finally, predicts the number present in image and sum of number present in Image and Random Number.
+Finally, predicts 2 ouputs.
+- Number present in Image
+- Sum of number present in image and Random Number.
 
 # Table of contents
 
@@ -26,30 +28,30 @@ Finally, predicts the number present in image and sum of number present in Image
 # Explanation - Work Flow
 
 - Create 2 Models
-    - One for predicting the number present in Image Input
-    - Second to perfrom and predict the addition
+    - One for predicting the number present in Image Input.
+    - Second to perfrom and predict the addition.
 - ### Model 1 - MNIST Model
   - Used convolutional layers, relu activation function and max-pooling to build the model.
-  - Optimizer - Stochastic Gradient Descent (SGD randomly picks one data point from the whole data set to compute derivatives at each iteration to reduce the computations)
-  - Loss Function - Negative log likelihood (It is used to minimize loss such that greater the confidence of correct class, lower the loss and lower the confidence of correct class, greater the loss)
+  - Optimizer - Stochastic Gradient Descent (SGD randomly picks one data point from the whole data set to compute derivatives at each iteration to reduce the computations).
+  - Loss Function - Negative log likelihood (It is used to minimize loss such that greater the confidence of correct class, lower the loss and lower the confidence of correct class, greater the loss).
 
 ![alt text](https://cdn.mathpix.com/snip/images/CpoT9c4tcXZYd_xIaByGDUSpFpK-RfyC8F24g6LH7rA.original.fullsize.png)
 
 - ### Model 2 - Sum Model
-  - Used 3 fully connected layers with Relu activation function
-  - Optimizer - Adam (For sparse gradients on noisy problems, since addition of 2 numbers is noisy because the 2 numbers can be any number)
-  - Loss Function - Mean Squared Error (It is the best choice for Regression like problem)
+  - Used 3 fully connected layers with Relu activation function.
+  - Optimizer - Adam (For sparse gradients on noisy problems, since addition of 2 numbers is noisy because the 2 numbers can be any number).
+  - Loss Function - Mean Squared Error (It is the best choice for Regression like problem).
 ![alt text](https://cdn.mathpix.com/snip/images/SFlkTFbriAthdkFeAxfMhZ-Xh1hdmV77E4cdFTRGWpI.original.fullsize.png)
 
-- Train MNIST Model on MNIST Dataset
+- Train MNIST Model on MNIST Dataset.
 - Test Accuracy is around 99% in 5 epochs.
-- Then generate the dataset for training Sum Model
-- Load the dataset using Dataset class and train the sum model
+- Then generate the dataset for training Sum Model.
+- Load the dataset using Dataset class and train the sum model.
 - Both the models are trained individually.
 - Finally, when an Image and Random Number is given,
-  - Pass the image through MNIST model and predict the number(output 1)
-  - Pass the predicted number and random number in Sum model and predict the addition of those 2 numbers(output 2)
-- So, the output of MNIST model along with random number is fed as input to Sum model
+  - Pass the image through MNIST model and predict the number(output 1).
+  - Pass the predicted number and random number in Sum model and predict the addition of those 2 numbers(output 2).
+- So, the output of MNIST model along with random number is fed as input to Sum model.
 
 # Data Representation
 - Input Image
