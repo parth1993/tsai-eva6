@@ -42,7 +42,7 @@ Finally, predicts the number present in image and sum of number present in Image
 ![alt text](https://cdn.mathpix.com/snip/images/SFlkTFbriAthdkFeAxfMhZ-Xh1hdmV77E4cdFTRGWpI.original.fullsize.png)
 
 - Train MNIST Model on MNIST Dataset
-- Test Accuracy is around 98-99% for 1 to 5 epochs.
+- Test Accuracy is around 99% in 5 epochs.
 - Then generate the dataset for training Sum Model
 - Load the dataset using Dataset class and train the sum model
 - Both the models are trained individually.
@@ -85,9 +85,9 @@ Finally, predicts the number present in image and sum of number present in Image
 
 # Results and Evaluation
 
-- The results of MNIST model which predicts number present in Image were evaluated and its accuracy was 98-99% in 1 to 5 epochs.
+- The results of MNIST model which predicts number present in Image were evaluated and its accuracy is around 99% 5 epochs.
 - Accuracy kept increasing with each epoch.
-- The results of Sum model was evaluated using RMSE(Root Mean Square Error) and its accuracy was not more than 25%.
+- The results of Sum model was evaluated using RMSE(Root Mean Square Error) and its accuracy is around 25% to 30%.
 ![alt text](https://cdn.mathpix.com/snip/images/YNAiTD4c-62SRLgZs7BmcilFjuXAB-AGBel8o50o4Pg.original.fullsize.png)
 ![alt text](https://cdn.mathpix.com/snip/images/HtoW5hGL_qhqgmb0MFps1Q6IvRg_SY48d6IkkaTBoQo.original.fullsize.png)
 ![alt text](https://cdn.mathpix.com/snip/images/gUj3ooDnAn2XqvCG1309bQIZ0OixTIaFrqzAksU0ptA.original.fullsize.png)
