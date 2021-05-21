@@ -36,7 +36,7 @@ Finally, predicts the number present in image and sum of number present in Image
 ![alt text](https://cdn.mathpix.com/snip/images/CpoT9c4tcXZYd_xIaByGDUSpFpK-RfyC8F24g6LH7rA.original.fullsize.png)
 
 - ### Model 2 - Sum Model
-  - Use fully connected layers only with 3 layers
+  - Used 3 fully connected layers with Relu activation function
   - Optimizer - Adam (For sparse gradients on noisy problems, since addition of 2 numbers is noisy because the 2 numbers can be any number)
   - Loss Function - Mean Squared Error (It is the best choice for Regression like problem)
 ![alt text](https://cdn.mathpix.com/snip/images/SFlkTFbriAthdkFeAxfMhZ-Xh1hdmV77E4cdFTRGWpI.original.fullsize.png)
