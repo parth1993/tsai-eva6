@@ -78,38 +78,80 @@ The way input is propagated in forward pass is explained by below equations.
     ∂E_Total/∂a_o2
     
     ```
-- Propagate error from a_o1 to o1 and a_o2 to o2.
+- Backpropagate from a_o1 to o1 and a_o2 to o2.
     ```
     
     ```
     ```
     
     ```
-- Propagate error from o1, o2 to a_h1 and a_h2.
+- Backpropagate from o1, o2 to a_h1 and a_h2.
     ```
     
     ```
     ```
     
     ```
-- Propagate error from a_h1 to h1 and a_h2 to h2.
+- Backpropagate from a_h1 to h1 and a_h2 to h2.
     ```
     
     ```
     ```
     
     ```
-- Propagate error from h1 to w1, w2 and h2 to w3, w4.
+- Backpropagate from h1 to w1, w2 and h2 to w3, w4.
     ```
     
     ```
     ```
     
     ```
-- Propagate error from o1 to w5, w6 and o2 to w7, w8.
+- Backpropagate from o1 to w5, w6 and o2 to w7, w8.
     ```
     
     ```
     ```
     
     ```
+- Backpropagate from total error to a_h1 and and total error to a_h2
+    ```
+    
+    ```
+    ```
+    
+    ```
+- Total backpropagation from total error to weights w5, w6, w7 and w8
+    ```
+    
+    ```
+    ```
+    
+    ```
+    ```
+    
+    ```
+    ```
+    
+    ```
+- Total backpropagation from total error to weights w1, w2, w3, w4
+    ```
+    
+    ```
+    ```
+    
+    ```
+    ```
+    
+    ```
+    ```
+    
+    ```
+- These last 8 equations above are used to update weights using the below formula.
+    ```
+    
+    ```
+    where, eta is learning rate.
+    
+
+## Example 1
+    
