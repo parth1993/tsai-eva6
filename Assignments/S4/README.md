@@ -8,13 +8,13 @@
 In the above neural network, 
 |Variables|What are they?|From|To|
 |----|----|----|----|
-|i1, i2|Neurons|Inputs|-|
+|i1, i2|Neurons||Input Layer|
 |w1, w2, w3, w4|Weights|Input Layer|Hidden Layer 1|
 |h1, h2|Neurons|Hidden Layer 1|-|
-|a_h1, a_h2|Sigmoid Activated Neurons|Hidden Layer 1|-|
+|a_h1, a_h2|Sigmoid Activated Neurons|Hidden Layer 1|Activated Hidden Layer|
 |w5, w6, w7, w8|Weights|Hidden Layer 1|Output Layer|
-|o1, o2|Neurons|Output Layer|-|
-|a_o1, a_o2|Sigmoid Activated Neurons|Output Layer|-|
+|o1, o2|Neurons|Activated Output Layer|-|
+|a_o1, a_o2|Sigmoid Activated Neurons|Output Layer|Activated Output Layer|
 |t1, t2|Target Values|Expected Output|-|
 |E1, E2|Error/Loss|Activated Output Layer|E_Total|
 |E_Total|Total Error|Sum of E1, E2|-|
