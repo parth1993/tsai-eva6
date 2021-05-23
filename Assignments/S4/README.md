@@ -36,6 +36,7 @@ In the above neural network,
 The way input is propagated in forward pass is explained by below equations.
 - The neurons in hidden layer 1 are weighted sum of input neurons.
     > h1 = w1*i1 + w2*i2
+
     > h2 = w3*i1 + w4*i2
 
 
