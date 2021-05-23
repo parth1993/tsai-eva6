@@ -39,5 +39,28 @@ The way input is propagated in forward pass is explained by below equations.
     h1 = w1*i1 + w2*i2
     h2 = w3*i1 + w4*i2
     ```
-
-
+- Sigmoid Activation Function is applied on ```h1``` and ```h2``` to make model non-linear.
+    ```
+    a_h1 = σ(h1) = 1/(1 + exp(-h1))
+    a_h2 = σ(h2) = 1/(1 + exp(-h2))
+    ```
+- Neurons in output layer is the weighted sum of activated neurons in hidden layer 1.
+    ```
+    o1 = w5*a_h1 + w6*a_h2
+    o2 = w7*a_h1 + w8*a_h2
+    ```
+- Sigmoid Activation Function is applied on ```o1``` and ```o2``` to make model non-linear.
+    ```
+    a_o1 = σ(o1) = 1/(1 + exp(-o1))
+    a_o2 = σ(o2) = 1/(1 + exp(-o2))
+    ```
+- ```E1``` and ```E2``` are errors/loss of output ```o1``` and ```o2``` respectively.
+    ```
+    E1 = 1/2 * (t1 - a_o1)2	
+    E2 = 1/2 * (t2 - a_o2)2	
+    ```
+- ```E_Total``` is the sum of errors/loss of 2 outputs.
+    ```
+    E_total = E1 + E2
+    ```
+    
