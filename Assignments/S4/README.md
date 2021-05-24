@@ -71,8 +71,12 @@ The way input is propagated in forward pass is explained by below equations.
 
 - Lets propagate error from total error to a_o1 and a_o2.
     ``` 
-    ∂E_Total/∂a_o1
-    
+    ∂E_Total/∂a_o1 = ∂(E1+E2)/∂a_o1 = ((∂E1/∂a_o1) + (∂E2/∂a_o1)) 				
+	    ∂E1/∂a_o1 = ∂(1/2 * (t1 - a_o1)2)/∂a_o1			
+	    ∂E1/∂a_o1 = -(t1 - a_o1) = (a_o1 - t1)			
+	    ∂E2/∂a_o1 = ∂(1/2 * (t2 - a_o2)2)/∂a_o1			
+	    ∂E2/∂a_o1 = 0			
+    ∂E_Total/∂a_o1 = (a_o1 - t1)
     ```
     ``` 
     ∂E_Total/∂a_o2
