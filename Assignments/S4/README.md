@@ -72,18 +72,18 @@ The way input is propagated in forward pass is explained by below equations.
 - Lets propagate error from total error to a_o1 and a_o2.
     ``` 
     ∂E_Total/∂a_o1 = ∂(E1+E2)/∂a_o1 = ((∂E1/∂a_o1) + (∂E2/∂a_o1))
-	    ∂E1/∂a_o1 = ∂(1/2 * (t1 - a_o1)2)/∂a_o1
-	    ∂E1/∂a_o1 = -(t1 - a_o1) = (a_o1 - t1)
-	    ∂E2/∂a_o1 = ∂(1/2 * (t2 - a_o2)2)/∂a_o1
-	    ∂E2/∂a_o1 = 0
+        ∂E1/∂a_o1 = ∂(1/2 * (t1 - a_o1)2)/∂a_o1
+        ∂E1/∂a_o1 = -(t1 - a_o1) = (a_o1 - t1)
+        ∂E2/∂a_o1 = ∂(1/2 * (t2 - a_o2)2)/∂a_o1
+        ∂E2/∂a_o1 = 0
     ∂E_Total/∂a_o1 = (a_o1 - t1)
     ```
     ``` 
     ∂E_Total/∂a_o2 = ∂(E1+E2)/∂a_o2 = ((∂E1/∂a_o2) + (∂E2/∂a_o2))
-	∂E1/∂a_o2 = ∂(1/2 * (t1 - a_o1)2)/∂a_o2
-	∂E1/∂a_o2 = 0
-	∂E2/∂a_o2 = ∂(1/2 * (t2 - a_o2)2)/∂a_o2
-	∂E2/∂a_o2 =  -(t2 - a_o2) = (a_o2 - t2)
+        ∂E1/∂a_o2 = ∂(1/2 * (t1 - a_o1)2)/∂a_o2
+        ∂E1/∂a_o2 = 0
+        ∂E2/∂a_o2 = ∂(1/2 * (t2 - a_o2)2)/∂a_o2
+        ∂E2/∂a_o2 =  -(t2 - a_o2) = (a_o2 - t2)
     ∂E_Total/∂a_o2 = (a_o2 - t2)
     ```
 - Backpropagate from a_o1 to o1 and a_o2 to o2.
@@ -130,10 +130,10 @@ The way input is propagated in forward pass is explained by below equations.
 - Backpropagate from total error to a_h1 and and total error to a_h2
     ```
     ∂E_Total/∂a_h1 = ∂(E1+E2)/∂a_h1 = ((∂E1/∂a_h1) + (∂E2/∂a_h1))
-    	∂E1/∂a_h1 = ∂E/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂a_h1
-    	∂E1/∂a_h1 = (a_o1 - t1) * a_o1 * (1 - a_o1) * w5
-    	∂E2/∂a_h1 = ∂E/∂a_o2 * ∂a_o2/∂o2 * ∂o2/∂a_h1
-    	∂E2/∂a_h1 = (a_o2 - t2) * a_o2 * (1 - a_o2) * w7
+        ∂E1/∂a_h1 = ∂E/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂a_h1
+        ∂E1/∂a_h1 = (a_o1 - t1) * a_o1 * (1 - a_o1) * w5
+        ∂E2/∂a_h1 = ∂E/∂a_o2 * ∂a_o2/∂o2 * ∂o2/∂a_h1
+        ∂E2/∂a_h1 = (a_o2 - t2) * a_o2 * (1 - a_o2) * w7
     ∂E_Total/∂a_h1 = (a_o1 - t1) * a_o1 * (1 - a_o1) * w5 +  (a_o2 - t2) * a_o2 * (1 - a_o2) * w7
     ```
     ```
