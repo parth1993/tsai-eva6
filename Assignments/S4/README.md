@@ -193,3 +193,4 @@ The way input is propagated in forward pass is explained by below equations.
 
 ![alt image](https://user-images.githubusercontent.com/46129975/119308205-6622d680-bc8a-11eb-90ff-ad7f67298da9.png)
 
+# Add some text for the above graph
