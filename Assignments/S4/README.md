@@ -138,10 +138,10 @@ The way input is propagated in forward pass is explained by below equations.
     ```
     ```
     ∂E_Total/∂a_h2 = ∂(E1+E2)/∂a_h2 = ((∂E1/∂a_h2) + (∂E2/∂a_h2))
-	∂E1/∂a_h2 = ∂E/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂a_h2
-	∂E1/∂a_h2 = (a_o1 - t1) * a_o1 * (1 - a_o1) * w6
-	∂E2/∂a_h2 = ∂E/∂a_o2 * ∂a_o2/∂o2 * ∂o2/∂a_h2
-	∂E2/∂a_h2 = (a_o2 - t2) * a_o2 * (1 - a_o2) * w8
+        ∂E1/∂a_h2 = ∂E/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂a_h2
+        ∂E1/∂a_h2 = (a_o1 - t1) * a_o1 * (1 - a_o1) * w6
+        ∂E2/∂a_h2 = ∂E/∂a_o2 * ∂a_o2/∂o2 * ∂o2/∂a_h2
+        ∂E2/∂a_h2 = (a_o2 - t2) * a_o2 * (1 - a_o2) * w8
     ∂E_Total/∂a_h1 = (a_o1 - t1) * a_o1 * (1 - a_o1) * w6 +  (a_o2 - t2) * a_o2 * (1 - a_o2) * w8
     ```
 - Total backpropagation from total error to weights w5, w6, w7 and w8
