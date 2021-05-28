@@ -1,12 +1,12 @@
 # Assignment 4
 
-# Group Members
+## Group Members
 - Harshita Sharma - harshita23sharma@gmail.com
 - Pankaj S K - pankajsureshkumar7@gmail.com
 - Avichal Jain - avichaljain1997@gmail.com
 - Aman Kumar - aman487jain@gmail.com
 
-# Table of Contents
+## Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#table-of-contents)
 - [Part-1 - Backpropagation](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#part-1---backpropagation)
