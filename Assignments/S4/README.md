@@ -1,10 +1,10 @@
 # Assignment 4
 
 # Group Members
-- Harshita Sharma
-- Pankaj S K
-- Avichal Jain
-- Aman Kumar
+- Harshita Sharma - harshita23sharma@gmail.com
+- Pankaj S K - pankajsureshkumar7@gmail.com
+- Avichal Jain - avichaljain1997@gmail.com
+- Aman Kumar - aman487jain@gmail.com
 
 # Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#group-members)
