@@ -190,6 +190,7 @@ axs[0, 1].set_title("Test Loss")
 axs[1, 1].plot(testing_accuracy)
 axs[1, 1].set_title("Test Accuracy")
 ```
+![download](https://user-images.githubusercontent.com/16293041/119998189-1b88bd80-bfee-11eb-8c55-7293363ea578.png)
 
 # Custom Testing
 
