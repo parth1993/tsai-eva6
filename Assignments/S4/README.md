@@ -51,6 +51,7 @@ In the above neural network,
 |E1, E2|Error/Loss|Activated Output Layer|E_Total|
 |E_Total|Total Error|Sum of E1, E2|-|
 
+[Link to Excel File](https://github.com/amanjain487/tsai-eva6/files/6562335/Session.-.4.-.BackPropagation.xlsx)
 
 ## Forward Pass Equations
 The way input is propagated in forward pass is explained by below equations.
@@ -208,6 +209,7 @@ The way input is propagated in forward pass is explained by below equations.
 ## Training Neural Network in Excel
 - ### η = 0.1
 ![alt image](https://cdn.mathpix.com/snip/images/7UFeoN8eTqDeUk8G5Ku_ke4pU6JjxbT29Egsmk7GK4A.original.fullsize.png)
+[Link to Excel File](https://github.com/amanjain487/tsai-eva6/files/6562335/Session.-.4.-.BackPropagation.xlsx)
 
 ## Error Graph at Different Learning Rates
 
