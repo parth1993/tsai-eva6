@@ -15,7 +15,19 @@
     - [Backpropagation Equations](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#backpropagation-equations)
     - [Training Neural Network in Excel](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#training-neural-network-in-excel)
     - [Error Graph at Different Learning Rates](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#error-graph-at-different-learning-rates)
-- [Part - 2](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#part-2)
+- [Part-2 - Architectural Basics](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#part-2---architectural-basics)
+    - [Colab File]()
+    - [Target](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#target)
+    - [Model Architecture](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#model-architecture)
+    - [Model Summary](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#model-summary)
+    - [Fetching MNIST Dataset and Dataset Prep](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#fetching-mnist-dataset-and-dataset-prep)
+    - [Defining Model Object, LR Scheduler and Optimizer](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#defining-model-object-lr-scheduler-and-optimizer)
+    - [Training Logs](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#training-logs)
+    - [Plotting Graphs for Losses and Accuracies](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#plotting-graphs-for-losses-and-accuracies)
+    - [Testing with Custom Images](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#testing-with-custom-images)
+        - [Original Images](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#original-images)
+        - [Images converted to MNIST format](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#images-converted-to-mnist-format)
+        - [Model Predictions](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#model-predictions) 
 
 # PART-1 - BackPropagation
 Derive the Backpropagation Equations and train a network in Excel.
@@ -255,7 +267,7 @@ train_loader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, shu
 test_loader = torch.utils.data.DataLoader(test_set, batch_size=batch_size, shuffle=True, **kwargs)
 ```
 
-# Defining Model Object, LR Scheduler and Optimizer
+## Defining Model Object, LR Scheduler and Optimizer
 
 ```
 model = Net().to(device)
