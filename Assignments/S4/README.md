@@ -223,7 +223,7 @@ This part aims at designing a CNN model for MNIST Classification with below ment
 
 |Targets|Achieved?|
 | :----: | :----: |
-|99.4% validation accuracy|Yes - 99.5% in in Epoch 9|
+|99.4% validation accuracy|Yes - 99.5% in Epoch 9|
 Less than 20k Parameters|Yes - 8320 Parameters used|
 |Less than 20 Epochs|Yes - Model Consistent from 11th Epoch to 19th Epoch|
 |Used Batch Normalization|Yes|
