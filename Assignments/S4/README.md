@@ -219,6 +219,7 @@ The way input is propagated in forward pass is explained by below equations.
 This part aims at designing a CNN model for MNIST Classification with below mentioned target.
 
 ## Target
+[Link to Colab File](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/Session_4_Part_2.ipynb)
 
 |Targets|Achieved?|
 | :----: | :----: |
