@@ -1,9 +1,9 @@
 # Table of Contents
-- [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_2.md#group-members)
-- [Architecture Diagram](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_2_2.md#table-of-contents)
-    - [Part-2 - REWRITE COLAB CODE](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_2.md#part-1---backpropagation)
-    - [Model Architecture](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_2.md#neural-network)
-    - [Fetching Mnist Dataset and Dataset Prep](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_2.md#Fetching-Mnist-Dataset-and-Dataset-Prep)
+- [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_PART2.md#group-members)
+- [Architecture Diagram](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_PART2_2.md#table-of-contents)
+    - [Part-2 - REWRITE COLAB CODE](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_PART2.md)
+    - [Model Architecture](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_PART2.md#neural-network)
+    - [Fetching Mnist Dataset and Dataset Prep](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_PART2.md#Fetching-Mnist-Dataset-and-Dataset-Prep)
     - [Defining the model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#Defining-the-model)
     - [Defining model object, loss function and optimizer](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#Defining-model-object,-loss-function-and-optimizer)
     - [Train and Test the Model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#Train-and-Test-the-Model)
@@ -192,5 +192,7 @@ axs[1, 1].set_title("Test Accuracy")
 ```
 
 # Custom Testing
+
+
 
 
