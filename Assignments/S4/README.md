@@ -1,4 +1,21 @@
-# Assignment 4 
+# Assignment 4
+
+# Group Members
+- Harshita Sharma
+- Pankaj S K
+- Avichal Jain
+- Aman Kumar
+
+# Table of Contents
+- [Group Members]()
+- [Part-1 - Backpropagation]()
+    - [Model Architecture]()
+    - [Forward Pass Equations]()
+    - [Backpropagation Equations]()
+    - [Training Neural Network in Excel]()
+    - [Error Graph at Different Learning Rates]()
+- [Part - 2]()
+
 # PART 1
 
 ## Neural Network
@@ -180,5 +197,8 @@ The way input is propagated in forward pass is explained by below equations.
 ## Error Graph at Different Learning Rates
 
 ![alt image](https://user-images.githubusercontent.com/46129975/119308205-6622d680-bc8a-11eb-90ff-ad7f67298da9.png)
+- The model converges faster at larger learning rate, but when learning rate becomes too high, the model starts diverging.
+- When the learning rate is too less, model takes lot of time/iteration to reach minima. At higher rates, sometimes model gets stuck at local minima.
 
-# Add some text for the above graph
+# Part - 2
+
