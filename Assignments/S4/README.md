@@ -202,5 +202,107 @@ The way input is propagated in forward pass is explained by below equations.
 - The model converges faster at larger learning rate, but when learning rate becomes too high, the model starts diverging.
 - When the learning rate is too less, model takes lot of time/iteration to reach minima. At higher rates, sometimes model gets stuck at local minima.
 
-# Part-2
+# Part-2 - Architectural Basics
+This part aims at designing a CNN model for MNIST Classification with below mentioned target.
+
+## Target
+```
+- 99.4% validation accuracy
+- Less than 20k Parameters
+- Less than 20 Epochs
+- Must have used Batch Normalization, Dropout, a fully connected layer and a global averaging pool layer.
+- Any concept that has been covered can be used.
+```
+
+## Model Architecture
+The model that is used to achieve the above targets is.
+    -Add hand-drawn model architecture
+We have stopped at Receptive Field of 20, because almost all the images in MNIST dataset have numbers at center of the image.
+
+## Model Summary
+![alt image](https://user-images.githubusercontent.com/46129975/119969613-685b9c80-bfcc-11eb-8336-61512dddfb83.png)
+
+## Training Logs
+```
+EPOCH: 1 LR =  [0.01]
+/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+Train set: Accuracy=87.5
+Test set: Average loss: 0.0757, Accuracy: 9789/10000 (97.9%)
+
+EPOCH: 2 LR =  [0.01]
+Train set: Accuracy=97.8
+Test set: Average loss: 0.0502, Accuracy: 9861/10000 (98.6%)
+
+EPOCH: 3 LR =  [0.01]
+Train set: Accuracy=98.3
+Test set: Average loss: 0.0358, Accuracy: 9903/10000 (99.0%)
+
+EPOCH: 4 LR =  [0.01]
+Train set: Accuracy=98.5
+Test set: Average loss: 0.0376, Accuracy: 9889/10000 (98.9%)
+
+EPOCH: 5 LR =  [0.01]
+Train set: Accuracy=98.7
+Test set: Average loss: 0.0318, Accuracy: 9914/10000 (99.1%)
+
+EPOCH: 6 LR =  [0.01]
+Train set: Accuracy=98.8
+Test set: Average loss: 0.0286, Accuracy: 9903/10000 (99.0%)
+
+EPOCH: 7 LR =  [0.0001]
+Train set: Accuracy=99.1
+Test set: Average loss: 0.0219, Accuracy: 9931/10000 (99.3%)
+
+EPOCH: 8 LR =  [0.001]
+Train set: Accuracy=99.1
+Test set: Average loss: 0.0218, Accuracy: 9932/10000 (99.3%)
+
+EPOCH: 9 LR =  [0.001]
+Train set: Accuracy=99.1
+Test set: Average loss: 0.0210, Accuracy: 9936/10000 (99.4%)
+
+EPOCH: 10 LR =  [0.001]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0221, Accuracy: 9933/10000 (99.3%)
+
+EPOCH: 11 LR =  [0.001]
+Train set: Accuracy=99.1
+Test set: Average loss: 0.0212, Accuracy: 9939/10000 (99.4%)
+
+EPOCH: 12 LR =  [0.001]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0210, Accuracy: 9936/10000 (99.4%)
+
+EPOCH: 13 LR =  [1e-05]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0210, Accuracy: 9936/10000 (99.4%)
+
+EPOCH: 14 LR =  [0.0001]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0207, Accuracy: 9939/10000 (99.4%)
+
+EPOCH: 15 LR =  [0.0001]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0209, Accuracy: 9935/10000 (99.3%)
+
+EPOCH: 16 LR =  [0.0001]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0208, Accuracy: 9939/10000 (99.4%)
+
+EPOCH: 17 LR =  [0.0001]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0204, Accuracy: 9936/10000 (99.4%)
+
+EPOCH: 18 LR =  [0.0001]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0209, Accuracy: 9938/10000 (99.4%)
+
+EPOCH: 19 LR =  [1.0000000000000002e-06]
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0205, Accuracy: 9939/10000 (99.4%)
+```
+
+## Loss and Accuracy Graphs
+![alt image](https://user-images.githubusercontent.com/46129975/119970128-fc2d6880-bfcc-11eb-97e5-4bd4e087d4cc.png)
 
