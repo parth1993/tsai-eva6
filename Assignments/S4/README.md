@@ -306,3 +306,6 @@ Test set: Average loss: 0.0205, Accuracy: 9939/10000 (99.4%)
 ## Loss and Accuracy Graphs
 ![alt image](https://user-images.githubusercontent.com/46129975/119970128-fc2d6880-bfcc-11eb-97e5-4bd4e087d4cc.png)
 
+## Testing with Custom Images
+Testing the model with custom handwritten images.
+### Original Images
