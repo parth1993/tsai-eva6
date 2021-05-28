@@ -10,7 +10,7 @@
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#table-of-contents)
 - [Part-1 - Backpropagation](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#part-1---backpropagation)
-    - [Excel File - Backpropagation](https://github.com/amanjain487/tsai-eva6/files/6562335/Session.-.4.-.BackPropagation.xlsx
+    - [Excel File - Backpropagation](https://github.com/amanjain487/tsai-eva6/files/6562335/Session.-.4.-.BackPropagation.xlsx)
     - [Model Architecture](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#neural-network)
     - [Forward Pass Equations](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#forward-pass-equations)
     - [Backpropagation Equations](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#backpropagation-equations)
