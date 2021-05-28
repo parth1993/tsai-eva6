@@ -1,4 +1,5 @@
 # Assignment 4 - Architectural Basics
+This part aims at designing a CNN model for MNIST Classification with below mentioned targets.
 
 ## Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README_PART2.md#group-members)
