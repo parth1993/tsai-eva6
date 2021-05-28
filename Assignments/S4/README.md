@@ -10,6 +10,7 @@
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#table-of-contents)
 - [Part-1 - Backpropagation](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#part-1---backpropagation)
+    - [Excel File - Backpropagation](https://github.com/amanjain487/tsai-eva6/files/6562335/Session.-.4.-.BackPropagation.xlsx
     - [Model Architecture](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#neural-network)
     - [Forward Pass Equations](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#forward-pass-equations)
     - [Backpropagation Equations](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#backpropagation-equations)
@@ -376,3 +377,11 @@ Testing the model with custom handwritten images.
 ![image](https://user-images.githubusercontent.com/46129975/120015936-97403580-c001-11eb-9184-e35cc31f06cd.png)
 ### Model Predictions
 ![image](https://user-images.githubusercontent.com/46129975/120015955-9e674380-c001-11eb-88db-8c8f3495b568.png)
+The reason for less accuracy is:
+- Not enough Images
+- These are handwritten images, and actual MNIST dataset on which model is trained follow certain properties like
+    - Size of 28 x 28
+    - Digit is at centre
+    - Black background
+    - Digit in white color
+- Though, we try to convert them to the format followed by MNIST, we may not be successful in converting all images properly.
