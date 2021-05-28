@@ -377,8 +377,11 @@ Testing the model with custom handwritten images.
 ![image](https://user-images.githubusercontent.com/46129975/120015936-97403580-c001-11eb-9184-e35cc31f06cd.png)
 ### Model Predictions
 ![image](https://user-images.githubusercontent.com/46129975/120015955-9e674380-c001-11eb-88db-8c8f3495b568.png)
+
+We tested the model for 4 handwritten images, and got correct output for 3 images, hence accuracy = ```100 * 3/4``` = ```75%``` 
+
 The reason for less accuracy is:
-- Not enough Images
+- Not enough Handwritten images to test the model rigorously with handwritten images.
 - These are handwritten images, and actual MNIST dataset on which model is trained follow certain properties like
     - Size of 28 x 28
     - Digit is at centre
