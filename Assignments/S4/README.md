@@ -16,7 +16,7 @@
     - [Training Neural Network in Excel](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#training-neural-network-in-excel)
     - [Error Graph at Different Learning Rates](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#error-graph-at-different-learning-rates)
 - [Part-2 - Architectural Basics](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#part-2---architectural-basics)
-    - [Colab File]()
+    - [Colab File](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/Session_4_Part_2.ipynb)
     - [Target](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#target)
     - [Model Architecture](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#model-architecture)
     - [Model Summary](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#model-summary)
@@ -221,9 +221,9 @@ This part aims at designing a CNN model for MNIST Classification with below ment
 
 |Targets|Achieved?|
 | :----: | :----: |
-|99.4% validation accuracy|Yes - 99.4% in in Epoch 9|
+|99.4% validation accuracy|Yes - 99.5% in in Epoch 9|
 Less than 20k Parameters|Yes - 8320 Parameters used|
-|Less than 20 Epochs|Yes - Model Consistent from 9th Epoch to 19th Epoch|
+|Less than 20 Epochs|Yes - Model Consistent from 11th Epoch to 19th Epoch|
 |Used Batch Normalization|Yes|
 |Used Dropout|Yes|
 |Used Fully Connected Layer|Yes|
@@ -231,7 +231,6 @@ Less than 20k Parameters|Yes - 8320 Parameters used|
 
 ## Model Architecture
 The model that is used to achieve the above targets is
-
 
 ![2021-05-28](https://user-images.githubusercontent.com/16293041/119993770-90a5c400-bfe9-11eb-8afe-a164e5f7d34b.jpg)
 
@@ -279,82 +278,80 @@ scheduler = StepLR(optimizer, step_size=6, gamma=0.1)
 We have used LR Scheduling.
 ```
 EPOCH: 1 LR =  [0.01]
-/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:370: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
-  "please use `get_last_lr()`.", UserWarning)
-Train set: Accuracy=87.5
-Test set: Average loss: 0.0757, Accuracy: 9789/10000 (97.9%)
+Train set: Accuracy=84.8
+Test set: Average loss: 0.1158, Accuracy: 9659/10000 (96.6%)
 
 EPOCH: 2 LR =  [0.01]
-Train set: Accuracy=97.8
-Test set: Average loss: 0.0502, Accuracy: 9861/10000 (98.6%)
+Train set: Accuracy=97.7
+Test set: Average loss: 0.0483, Accuracy: 9866/10000 (98.7%)
 
 EPOCH: 3 LR =  [0.01]
-Train set: Accuracy=98.3
-Test set: Average loss: 0.0358, Accuracy: 9903/10000 (99.0%)
+Train set: Accuracy=98.2
+Test set: Average loss: 0.0380, Accuracy: 9885/10000 (98.8%)
 
 EPOCH: 4 LR =  [0.01]
-Train set: Accuracy=98.5
-Test set: Average loss: 0.0376, Accuracy: 9889/10000 (98.9%)
+Train set: Accuracy=98.4
+Test set: Average loss: 0.0363, Accuracy: 9882/10000 (98.8%)
 
 EPOCH: 5 LR =  [0.01]
 Train set: Accuracy=98.7
-Test set: Average loss: 0.0318, Accuracy: 9914/10000 (99.1%)
+Test set: Average loss: 0.0270, Accuracy: 9916/10000 (99.2%)
 
 EPOCH: 6 LR =  [0.01]
 Train set: Accuracy=98.8
-Test set: Average loss: 0.0286, Accuracy: 9903/10000 (99.0%)
+Test set: Average loss: 0.0318, Accuracy: 9906/10000 (99.1%)
 
 EPOCH: 7 LR =  [0.0001]
-Train set: Accuracy=99.1
-Test set: Average loss: 0.0219, Accuracy: 9931/10000 (99.3%)
+Train set: Accuracy=99.0
+Test set: Average loss: 0.0207, Accuracy: 9932/10000 (99.3%)
 
 EPOCH: 8 LR =  [0.001]
 Train set: Accuracy=99.1
-Test set: Average loss: 0.0218, Accuracy: 9932/10000 (99.3%)
+Test set: Average loss: 0.0198, Accuracy: 9932/10000 (99.3%)
 
 EPOCH: 9 LR =  [0.001]
-Train set: Accuracy=99.1
-Test set: Average loss: 0.0210, Accuracy: 9936/10000 (99.4%)
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0190, Accuracy: 9945/10000 (99.5%)
 
 EPOCH: 10 LR =  [0.001]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0221, Accuracy: 9933/10000 (99.3%)
+Test set: Average loss: 0.0200, Accuracy: 9934/10000 (99.3%)
 
 EPOCH: 11 LR =  [0.001]
-Train set: Accuracy=99.1
-Test set: Average loss: 0.0212, Accuracy: 9939/10000 (99.4%)
+Train set: Accuracy=99.2
+Test set: Average loss: 0.0195, Accuracy: 9937/10000 (99.4%)
 
 EPOCH: 12 LR =  [0.001]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0210, Accuracy: 9936/10000 (99.4%)
+Test set: Average loss: 0.0191, Accuracy: 9941/10000 (99.4%)
 
 EPOCH: 13 LR =  [1e-05]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0210, Accuracy: 9936/10000 (99.4%)
+Test set: Average loss: 0.0194, Accuracy: 9939/10000 (99.4%)
 
 EPOCH: 14 LR =  [0.0001]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0207, Accuracy: 9939/10000 (99.4%)
+Test set: Average loss: 0.0190, Accuracy: 9940/10000 (99.4%)
 
 EPOCH: 15 LR =  [0.0001]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0209, Accuracy: 9935/10000 (99.3%)
+Test set: Average loss: 0.0188, Accuracy: 9944/10000 (99.4%)
 
 EPOCH: 16 LR =  [0.0001]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0208, Accuracy: 9939/10000 (99.4%)
+Test set: Average loss: 0.0194, Accuracy: 9941/10000 (99.4%)
 
 EPOCH: 17 LR =  [0.0001]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0204, Accuracy: 9936/10000 (99.4%)
+Test set: Average loss: 0.0194, Accuracy: 9938/10000 (99.4%)
 
 EPOCH: 18 LR =  [0.0001]
 Train set: Accuracy=99.2
-Test set: Average loss: 0.0209, Accuracy: 9938/10000 (99.4%)
+Test set: Average loss: 0.0189, Accuracy: 9939/10000 (99.4%)
 
 EPOCH: 19 LR =  [1.0000000000000002e-06]
-Train set: Accuracy=99.2
-Test set: Average loss: 0.0205, Accuracy: 9939/10000 (99.4%)
+Train set: Accuracy=99.3
+Test set: Average loss: 0.0188, Accuracy: 9944/10000 (99.4%)
 ```
 
 ## Plotting Graphs for Losses and Accuracies
@@ -369,13 +366,13 @@ axs[0, 1].set_title("Test Loss")
 axs[1, 1].plot(testing_accuracy)
 axs[1, 1].set_title("Test Accuracy")
 ```
-![image](https://user-images.githubusercontent.com/46129975/120001384-59d3ac00-bff1-11eb-994c-93664b2d8975.png)
+![image](https://user-images.githubusercontent.com/46129975/120015873-81cb0b80-c001-11eb-9b56-0bed3492295b.png)
 
 ## Testing with Custom Images
 Testing the model with custom handwritten images.
 ### Original Images
-![image](https://user-images.githubusercontent.com/46129975/120000885-e92c8f80-bff0-11eb-9ad7-2aeab04ddd10.png)
+![image](https://user-images.githubusercontent.com/46129975/120015910-8e4f6400-c001-11eb-98cd-25c8a3d00708.png)
 ### Images converted to MNIST format
-![image](https://user-images.githubusercontent.com/46129975/120000981-f9dd0580-bff0-11eb-8067-0faba6c1a77f.png)
+![image](https://user-images.githubusercontent.com/46129975/120015936-97403580-c001-11eb-9184-e35cc31f06cd.png)
 ### Model Predictions
-![image](https://user-images.githubusercontent.com/46129975/120001318-4b859000-bff1-11eb-8e6b-d2feaabe85b8.png)
+![image](https://user-images.githubusercontent.com/46129975/120015955-9e674380-c001-11eb-88db-8c8f3495b568.png)
