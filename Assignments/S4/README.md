@@ -7,16 +7,18 @@
 - Aman Kumar
 
 # Table of Contents
-- [Group Members]()
-- [Part-1 - Backpropagation]()
-    - [Model Architecture]()
-    - [Forward Pass Equations]()
-    - [Backpropagation Equations]()
-    - [Training Neural Network in Excel]()
-    - [Error Graph at Different Learning Rates]()
-- [Part - 2]()
+- [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#group-members)
+- [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#table-of-contents)
+- [Part-1 - Backpropagation](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#part-1---backpropagation)
+    - [Model Architecture](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#neural-network)
+    - [Forward Pass Equations](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S4/README.md#forward-pass-equations)
+    - [Backpropagation Equations](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#backpropagation-equations)
+    - [Training Neural Network in Excel](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#training-neural-network-in-excel)
+    - [Error Graph at Different Learning Rates](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#error-graph-at-different-learning-rates)
+- [Part - 2](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S4#part-2)
 
-# PART 1
+# PART-1 - BackPropagation
+Derive the Backpropagation Equations and train a network in Excel.
 
 ## Neural Network
 
@@ -200,5 +202,5 @@ The way input is propagated in forward pass is explained by below equations.
 - The model converges faster at larger learning rate, but when learning rate becomes too high, the model starts diverging.
 - When the learning rate is too less, model takes lot of time/iteration to reach minima. At higher rates, sometimes model gets stuck at local minima.
 
-# Part - 2
+# Part-2
 
