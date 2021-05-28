@@ -218,11 +218,12 @@ Less than 20k Parameters|Yes - 8320 Parameters used|
 |Used Global Averaging Pool Layer|Yes|
 
 ## Model Architecture
-- The model that is used to achieve the above targets is
-```
+The model that is used to achieve the above targets is
+
+
 ![2021-05-28](https://user-images.githubusercontent.com/16293041/119993770-90a5c400-bfe9-11eb-8afe-a164e5f7d34b.jpg)
-```
-- We have stopped at Receptive Field of 20, because almost all the images in MNIST dataset have numbers at center of the image.
+
+We have stopped at Receptive Field of 20, because almost all the images in MNIST dataset have numbers at center of the image.
 
 ## Model Summary
 ![alt image](https://user-images.githubusercontent.com/46129975/119969613-685b9c80-bfcc-11eb-8336-61512dddfb83.png)
