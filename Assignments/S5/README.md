@@ -15,7 +15,7 @@
 - [Experiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-4)
 - [Experiment 5](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-5)
 
-## [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6-_ession5_CODE1.ipynb)
+## [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6-Session5_CODE1.ipynb)
 
 1. Target:
     - Get the complete setup right.
