@@ -9,13 +9,13 @@
 ## Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#table-of-contents)
-- [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/9f5cd23e2f678d4eaaf9d80b3bfa6b131df2a7bf/Assignments/S5/EVA6_Session5_CODE1.ipynb)
+- [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE1.ipynb)
 - [Experiment 2](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-2)
 - [Experiment 3](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-3)
 - [Experiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-4)
 - [Experiment 5](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-5)
 
-## Experiment 1
+## Experiment 1(https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE1.ipynb)
 
 1. Target:
     - Get the complete setup right.
