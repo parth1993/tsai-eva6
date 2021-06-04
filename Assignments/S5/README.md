@@ -9,7 +9,7 @@
 ## Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#table-of-contents)
-- [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE1.ipynb)
+- [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-1)
 - [Experiment 2](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-2)
 - [Experiment 3](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-3)
 - [Experiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-4)
