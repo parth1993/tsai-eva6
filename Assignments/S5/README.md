@@ -63,7 +63,7 @@
     - GAP further reduced the parameter. Accuracy goes down with GAP but the test accuracy finally goes up with regularizion.
 
 
-## E[xperiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE4.ipynb)
+## [Experiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE4.ipynb)
 
 1. Target:
     - Increase model's capacity by increasing data augmentation.
