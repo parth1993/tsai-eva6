@@ -59,7 +59,7 @@
     - Best Test Accuracy: 99.32%
 
 3. Analysis:
-    - The model is not much overfitted.
+    - The model is still bit overfitted.
     - GAP further reduced the parameter. Accuracy goes down with GAP but the test accuracy finally goes up with regularizion.
 
 
