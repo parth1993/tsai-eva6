@@ -30,7 +30,7 @@
     - The model is not performing well as the test accuracy is low.
 
 
-## Experiment 2
+## [Experiment 2](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6-Session5-CODE2.ipynb)
 
 1. Target: 
     - Create a light weight model.
@@ -46,7 +46,7 @@
     - Increasing model capacity can help
 
 
-## Experiment 3
+## [Experiment 3](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6-Session5-CODE3.ipynb)
 
 1. Target:
     - First fix overfitting.
@@ -63,7 +63,7 @@
     - GAP further reduced the parameter. Accuracy goes down with GAP but the test accuracy finally goes up with regularizion.
 
 
-## Experiment 4
+## E[xperiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6-Session5-CODE4.ipynb)
 
 1. Target:
     - Increase model's capacity by increasing data augmentation.
@@ -79,7 +79,7 @@
     - Small number of channels in the starting seems to not having full capacity of the model. We can experiment with larger number of channels in the beginning.
     - Model is good in terms of regularization.
 
-## Experiment 5
+## [Experiment 5](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6-Session5-CODE5.ipynb)
 
 1. Target:
     - Increase model's capacity more at the starting. Add more channels and try.
