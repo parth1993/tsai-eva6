@@ -9,13 +9,13 @@
 ## Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#table-of-contents)
-- [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE1.ipynb)
+- [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-1)
 - [Experiment 2](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-2)
 - [Experiment 3](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-3)
 - [Experiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-4)
 - [Experiment 5](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/README.md#Experiment-5)
 
-## [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6-Session5_CODE1.ipynb)
+## [Experiment 1](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE1.ipynb)
 
 1. Target:
     - Get the complete setup right.
@@ -63,7 +63,7 @@
     - GAP further reduced the parameter. Accuracy goes down with GAP but the test accuracy finally goes up with regularizion.
 
 
-## E[xperiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE4.ipynb)
+## [Experiment 4](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S5/EVA6_Session5_CODE4.ipynb)
 
 1. Target:
     - Increase model's capacity by increasing data augmentation.
