@@ -63,3 +63,13 @@
 - For example,
 ![image](https://user-images.githubusercontent.com/46129975/121220796-941b3400-c8a2-11eb-828c-0a8fb94a8b4e.png)
 
+# Our Finidings for different Normalization Techniques
+
+# Grpahs for Models with different Normalization and Regularization
+
+# Misclassified Images for each model
+## 1. Network with Group Normalization + L1
+
+## 2. Network with Layer Normalization + L2
+
+## 3. Network with L1 + L2 + BN
