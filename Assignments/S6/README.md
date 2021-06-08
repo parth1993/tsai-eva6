@@ -58,8 +58,8 @@
 ## 3. Group Normalization
 - Group Normalization with a group size  **g**, will group the channels into multiple groups, and then computes two scalars  μ  and  σ^2 for each sample and each group. 
 - For this example, we have  4  channels, and group size is  g=2. 
-- Therefore, there are  2  groups of channels ( groups=2 ), and as a result: **total number of (μ,σ^2) pairs** will be **equal to N*C//g**.
-![image](https://user-images.githubusercontent.com/46129975/121220831-9bdad880-c8a2-11eb-81b3-afa96a52e592.png)
+- Therefore, there are  2  groups of channels ( groups=2 ), and as a result: **total number of (μ,σ^2) pairs** will be **equal to N*C/g**.
+![image](https://user-images.githubusercontent.com/46129975/121220943-b7de7a00-c8a2-11eb-9b92-0cc728c7d307.png)
 - For example,
 ![image](https://user-images.githubusercontent.com/46129975/121220796-941b3400-c8a2-11eb-828c-0a8fb94a8b4e.png)
 
