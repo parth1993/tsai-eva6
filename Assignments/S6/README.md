@@ -23,5 +23,5 @@
 - Batch Normalization is done channel wise.
 - In each layer, the input images/features will be equal to the batch size.
 - Each such image/feature will be collection of channels.
-- ![formula](https://render.githubusercontent.com/render/math?math=\mu_{\mathcal{B}}%20\leftarrow%20\frac{1}{m}%20\sum_{i=1}^{m}%20x_{i})
+- ![formula](https://render.githubusercontent.com/render/math?math=\Huge\mu_{\mathcal{B}}%20\leftarrow%20\frac{1}{m}%20\sum_{i=1}^{m}%20x_{i})
 
