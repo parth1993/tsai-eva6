@@ -34,3 +34,5 @@
     - ‘xi’ is an instance of the input data.
     - The mean(‘µ’) of a batch(‘B’) is calculated by the sum of the several input instances of the batch and dividing it by the total number of inputs(‘m’).
 
+![formula](https://render.githubusercontent.com/render/math?math=\Large%20(ii)%20\sigma_{\mathcal{B}}^{2}%20\leftarrow%20\frac{1}{m}%20\sum_{i=1}^{m}\left(x_{i}-\mu_{\mathcal{B}}\right)^{2})
+
