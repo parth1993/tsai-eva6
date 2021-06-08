@@ -27,7 +27,7 @@
 
 ![image](https://user-images.githubusercontent.com/46129975/121214933-320c0000-c89d-11eb-94b0-69a54ac5c9a3.png)
 
-- Then, a normalization layer will compute the mean  μ  and standard deviation  σ  from the data, and then normalize the feature maps as follows:
+- Then, a normalization layer will compute the mean  μ  and variance σ^2  from the data, and then normalize the feature maps as follows:
 
 ![image](https://user-images.githubusercontent.com/46129975/121215129-5cf65400-c89d-11eb-9226-91606add200c.png)
 
@@ -39,22 +39,27 @@
 - While this general formulation is the same among different normalization layer, the difference between them is the way  μ  and  σ  are computed, which is explained below.
 
 ## 1. Batch Normalization
-- Batch Normalization will compute two scalars,  μ  and  σ, for each channel. 
+- Batch Normalization will compute two scalars,  μ  and  σ^2, for each channel. 
 - For example, as shown in the following figure: 
-    - Each colored group of cells results in one scalar  μ  and one scalar  σ. In other words, one pair of  (μ,σ) from all the blue cells, one pair of  (μ,σ) from all the orange cells and same for green and purple.
-- So, **total number of (μ,σ) pairs** will be **equal to** the **total number of channels, C**.
+    - Each colored group of cells results in one scalar  μ  and one scalar  σ^2. In other words, one pair of  (μ,σ^2) from all the blue cells, one pair of  (μ,σ^2) from all the orange cells and same for green and purple.
+- So, **total number of (μ,σ^2) pairs** will be **equal to** the **total number of channels, C**.
 ![image](https://user-images.githubusercontent.com/46129975/121216175-4997b880-c89e-11eb-8126-931f95d21ed8.png)
 - For example, 
 ![image](https://user-images.githubusercontent.com/46129975/121217318-5bc62680-c89f-11eb-93f1-787166c13b37.png)
 
 ## 2. Layer Normalization
-- Layer Normalization will compute two scalars  μ  and  σ  for each sample. 
-- Therefore, **total number of (μ,σ) pairs** will be **equal to** the **total number of samples, N**.
+- Layer Normalization will compute two scalars  μ  and  σ^2  for each sample. 
+- Therefore, **total number of (μ,σ^2) pairs** will be **equal to** the **total number of samples, N**.
 ![image](https://user-images.githubusercontent.com/46129975/121216135-40a6e700-c89e-11eb-8131-3951eeea3c6e.png)
 - For example,
 ![image](https://user-images.githubusercontent.com/46129975/121218959-dba0c080-c8a0-11eb-8ce6-49e00a92a770.png)
 
 
 ## 3. Group Normalization
-- Group Normalization with a group size  **g**, will group the channels into multiple groups, and then computes two scalars  μ  and  ![\large σ^2](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) for each sample and each group. 
-- For this example, we have  4  channels, and group size is  g=2 . Therefore, there are  2  groups of channels ( groups=2 ), and as a result:  μ∈RN×Cg  and  σ2∈RN×Cg .
+- Group Normalization with a group size  **g**, will group the channels into multiple groups, and then computes two scalars  μ  and  σ^2 for each sample and each group. 
+- For this example, we have  4  channels, and group size is  g=2. 
+- Therefore, there are  2  groups of channels ( groups=2 ), and as a result: **total number of (μ,σ^2) pairs** will be **equal to N*C//g**.
+![image](https://user-images.githubusercontent.com/46129975/121220831-9bdad880-c8a2-11eb-81b3-afa96a52e592.png)
+- For example,
+![image](https://user-images.githubusercontent.com/46129975/121220796-941b3400-c8a2-11eb-828c-0a8fb94a8b4e.png)
+
