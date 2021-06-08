@@ -23,6 +23,6 @@
 - Batch Normalization is done channel wise.
 - In each layer, the input images/features will be equal to the batch size.
 - Each such image/feature will be collection of channels.
-- https://latex.codecogs.com/gif.latex?%24%5Cmu_%7B%5Cmathcal%7BB%7D%7D%20%5Cleftarrow%20%5Cfrac%7B1%7D%7Bm%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%20x_%7Bi%7D%24
+- ![formula](https://render.githubusercontent.com/render/math?math=\mu_{\mathcal{B}}%20\leftarrow%20\frac{1}{m}%20\sum_{i=1}^{m}%20x_{i})
 ![image](https://user-images.githubusercontent.com/46129975/121200455-611c7480-c891-11eb-9dca-1ab1ab5be7d5.png)
 
