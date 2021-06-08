@@ -20,19 +20,11 @@
     - Group Normalization
 
 ## 1. Batch Normalization
-- Batch Normalization is done channel wise.
+```
+Batch Normalization (BN) normalizes the mean and standard deviation for each individual feature channel/map.
+```
 - In each layer, the input images/features will be equal to the batch size.
 - Each such image/feature will be collection of channels.
-
-![formula](https://render.githubusercontent.com/render/math?math=\Large%20(i)\quad20\mu_{\mathcal{B}}%20\leftarrow%20\frac{1}{m}%20\sum_{i=1}^{m}%20x_{i})
-
-- This first operation calculates the mean of the inputs within a mini-batch. 
-- The result of the operation is a vector that contains each input’s mean.
-    - ‘m’ refers to the number of inputs in the mini-batch.
-    - ‘µ’ refers to the mean.
-    - ‘B’ is a subscript that refers to the current batch.
-    - ‘xi’ is an instance of the input data.
-    - The mean(‘µ’) of a batch(‘B’) is calculated by the sum of the several input instances of the batch and dividing it by the total number of inputs(‘m’).
-
-![formula](https://render.githubusercontent.com/render/math?math=\Large%20(ii)\quad\sigma_{\mathcal{B}}^{2}%20\leftarrow%20\frac{1}{m}%20\sum_{i=1}^{m}\left(x_{i}-\mu_{\mathcal{B}}\right)^{2})
-
+- From a mathematical point of view, you can think of it as bringing the features of the image in the same range.
+![image](https://user-images.githubusercontent.com/46129975/121207853-3a613c80-c897-11eb-9493-ba6e6cf36324.png)
+- The size of feature maps is N × C × H × W N \times C \times H \times WN×C×H×W (N = 4 N = 4N=4 in this example). 4D tensor (N × C × H × W N \times C \times H \times WN×C×H×W), indicating number of samples, number of channels, height and width of a channel respectively.
