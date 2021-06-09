@@ -66,10 +66,24 @@
 # Our Finidings for different Normalization Techniques
 
 # Grpahs for Models with different Normalization and Regularization
+## 1. Training Loss
+![image](https://user-images.githubusercontent.com/46129975/121379977-26ced800-c962-11eb-9aec-c8503ab899fc.png)
+
+## 2. Test Loss
+![image](https://user-images.githubusercontent.com/46129975/121380055-30584000-c962-11eb-811c-a76afb1c8175.png)
+
+## 3. Training Accuracy
+![image](https://user-images.githubusercontent.com/46129975/121380153-45cd6a00-c962-11eb-9e23-8eccd31f678f.png)
+
+## 4. Test Accuracy
+![image](https://user-images.githubusercontent.com/46129975/121380096-3a7a3e80-c962-11eb-9aeb-374770c436bf.png)
 
 # Misclassified Images for each model
 ## 1. Network with Group Normalization + L1
+![image](https://user-images.githubusercontent.com/46129975/121379565-c5a70480-c961-11eb-9a43-fe1112deaccc.png)
 
 ## 2. Network with Layer Normalization + L2
+![image](https://user-images.githubusercontent.com/46129975/121379629-d6577a80-c961-11eb-9be1-870aab334ddf.png)
 
 ## 3. Network with L1 + L2 + BN
+![image](https://user-images.githubusercontent.com/46129975/121379905-17e82580-c962-11eb-929f-4e1909d98216.png)
