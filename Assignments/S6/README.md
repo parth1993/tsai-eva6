@@ -27,7 +27,7 @@
 
 # Normalization & Types
 - In general, a normalization layer will try to mean-center and make feature maps have unit-variance.
-- There are three types of Normalization
+- Here we are experimenting with below three types of Normalization
     - Batch Normalization
     - Layer Normalization
     - Group Normalization
@@ -49,6 +49,10 @@
     - ϵ  is to avoid numerical instability (division-by-zero problem).
 
 - While this general formulation is the same among different normalization layer, the difference between them is the way  μ  and  σ  are computed, which is explained below.
+
+- Advantages of Normalization : We normalize the data so that calculations are smaller and also to make features common.
+    - Like without normalization ear of black cat is very much different than ear of white cat.
+    - By normalization we try to remove the color and focus only on ear in some channel.
 
 ## 1. Batch Normalization
 - Batch Normalization will compute two scalars,  μ  and  σ^2, for each channel. 
@@ -89,14 +93,13 @@
     - Defines a function to club conv layer with different normalization when normalization type is provided as argument
 
 # Our Finidings for different Normalization Techniques
-- We normalize the data so that calculations are smaller and also to make features common.
-    - Like without normalization ear of black cat is very much different than ear of white cat.
-    - By normalization we try to remove the color and focus only on ear in some channel.
-- Batchnorm is better because it works feature wise.
+- Looking at the testing graph, Batch normalization results into better performance as compared to layer and Group normalization for our model. Reason can be the following:
+    - BatchNorm works feature wise.
     - Layer norm and groupnorm work image wise and they actually suppress important feature maps based on useless feature maps.
-    - So it will be difficult to assign weight to such feature map which can vary from image to image. 
-    - Whereas in batchnorm if a feature map is normalized, it is normalized for all images, and backprop will take care in determining the importance of that feature.
-
+    - So in case of layer and group norm, it will be difficult to assign weight to such feature map which can vary from image to image.
+    - Whereas in BatchNorm, if a feature map is normalized, it is normalized for all images, and backprop will take care in determining the importance of that feature.
+- Training time is bit lesser when used Normalization on data. It reduced calculations.
+- Model has converged faster. From around 14th epoch, it shows constant results.
 
 # Grpahs for Models with different Normalization and Regularization
 ## 1. Training Loss
