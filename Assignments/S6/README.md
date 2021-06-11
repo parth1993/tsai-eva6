@@ -1,4 +1,4 @@
-# Assignment 6
+# Assignment 6 - Late Assignment on Time
 
 # Group Members
 - Harshita Sharma - harshita23sharma@gmail.com
@@ -8,10 +8,21 @@
 
 # Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S6/README.md#group-members)
-
-
-
-
+- [Table of Contents]()
+- [Normalization & Types]()
+    - [Batch Normalization]()
+    - [Layer Normalization]()
+    - [Group Normalization]()
+- [Our Finidings for different Normalization Techniques]()
+- [Grpahs for Models with different Normalization and Regularization]()
+    - [Training Loss per Epoch]()
+    - [Training Accuracy per Epoch]()
+    - [Test Loss per Epoch]()
+    - [Test Accuracy per Epoch]()
+- [Misclassified Images for each model]()
+    - [Network with Group Normalization + L1]()
+    - [Network with Layer Normalization + L2]()
+    - [Network with L1 + L2 + BN]()
 
 # Normalization & Types
 - In general, a normalization layer will try to mean-center and make feature maps have unit-variance.
@@ -74,23 +85,19 @@
     - 
 # Grpahs for Models with different Normalization and Regularization
 ## 1. Training Loss
-![image](https://user-images.githubusercontent.com/46129975/121379977-26ced800-c962-11eb-9aec-c8503ab899fc.png)
-
+![image](https://user-images.githubusercontent.com/46129975/121721414-dd1cf380-cb01-11eb-9736-f061e4d3eace.png)
 ## 2. Test Loss
-![image](https://user-images.githubusercontent.com/46129975/121380055-30584000-c962-11eb-811c-a76afb1c8175.png)
-
+![image](https://user-images.githubusercontent.com/46129975/121721348-cb3b5080-cb01-11eb-992d-23ba3751d8a8.png)
 ## 3. Training Accuracy
-![image](https://user-images.githubusercontent.com/46129975/121380153-45cd6a00-c962-11eb-9e23-8eccd31f678f.png)
-
+![image](https://user-images.githubusercontent.com/46129975/121721399-d8583f80-cb01-11eb-98fc-56b7ab668685.png)
 ## 4. Test Accuracy
-![image](https://user-images.githubusercontent.com/46129975/121380096-3a7a3e80-c962-11eb-9aeb-374770c436bf.png)
-
+![image](https://user-images.githubusercontent.com/46129975/121721369-d0989b00-cb01-11eb-8815-3ecaa70148cc.png)
 # Misclassified Images for each model
 ## 1. Network with Group Normalization + L1
-![image](https://user-images.githubusercontent.com/46129975/121379565-c5a70480-c961-11eb-9a43-fe1112deaccc.png)
+![image](https://user-images.githubusercontent.com/46129975/121720963-5536e980-cb01-11eb-817e-1721721c3c0f.png)
 
 ## 2. Network with Layer Normalization + L2
-![image](https://user-images.githubusercontent.com/46129975/121379629-d6577a80-c961-11eb-9be1-870aab334ddf.png)
+![image](https://user-images.githubusercontent.com/46129975/121721031-6a137d00-cb01-11eb-9723-88e2b4d0592c.png)
 
 ## 3. Network with L1 + L2 + BN
-![image](https://user-images.githubusercontent.com/46129975/121379905-17e82580-c962-11eb-929f-4e1909d98216.png)
+![image](https://user-images.githubusercontent.com/46129975/121721116-84e5f180-cb01-11eb-86c8-5ac78856ef72.png)
