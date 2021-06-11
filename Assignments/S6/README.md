@@ -64,7 +64,14 @@
 ![image](https://user-images.githubusercontent.com/46129975/121220796-941b3400-c8a2-11eb-828c-0a8fb94a8b4e.png)
 
 # Our Finidings for different Normalization Techniques
-
+- We normalize the data so that calculations are smaller and also to make features common.
+    - Like without normalization ear of black cat is very much different than ear of white cat.
+    - By normalization we try to remove the color and focus only on ear in some channel.
+- Batchnorm is better because it works feature wise.
+    - Layer norm and groupnorm work image wise and they actually suppress important feature maps based on useless feature maps.
+    - So it will be difficult to assign weight to such feature map which can vary from image to image. 
+    - Whereas in batchnorm if a feature map is normalized, it is normalized for all images, and backprop will take care in determining the importance of that feature.
+    - 
 # Grpahs for Models with different Normalization and Regularization
 ## 1. Training Loss
 ![image](https://user-images.githubusercontent.com/46129975/121379977-26ced800-c962-11eb-9aec-c8503ab899fc.png)
