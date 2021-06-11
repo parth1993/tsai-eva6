@@ -99,10 +99,10 @@
 
 # Misclassified Images for each model
 ## 1. Network with Group Normalization + L1
-![image](https://user-images.githubusercontent.com/46129975/121720963-5536e980-cb01-11eb-817e-1721721c3c0f.png)
+![image](https://user-images.githubusercontent.com/46129975/121723564-4a318880-cb04-11eb-89d5-8fba9584c59e.png)
 
 ## 2. Network with Layer Normalization + L2
-![image](https://user-images.githubusercontent.com/46129975/121721031-6a137d00-cb01-11eb-9723-88e2b4d0592c.png)
+![image](https://user-images.githubusercontent.com/46129975/121723521-41d94d80-cb04-11eb-9ac9-b3a1acbf3243.png)
 
 ## 3. Network with L1 + L2 + BN
-![image](https://user-images.githubusercontent.com/46129975/121721116-84e5f180-cb01-11eb-86c8-5ac78856ef72.png)
+![image](https://user-images.githubusercontent.com/46129975/121723497-38e87c00-cb04-11eb-8c01-cba02eb2bc21.png)
