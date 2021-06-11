@@ -9,11 +9,11 @@
 # Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S6/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#table-of-contents)
+- [About Our Code](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#about-our-code)
 - [Normalization & Types](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#normalization--types)
     - [Batch Normalization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-batch-normalization)
     - [Layer Normalization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#2-layer-normalization)
     - [Group Normalization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#3-group-normalization)
-- [About Our Code](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#about-our-code)
 - [Our Finidings for different Normalization Techniques](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#our-finidings-for-different-normalization-techniques)
 - [Grpahs for Models with different Normalization and Regularization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#grpahs-for-models-with-different-normalization-and-regularization)
     - [Training Loss per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-training-loss)
@@ -24,6 +24,21 @@
     - [Network with Group Normalization + L1](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-network-with-group-normalization--l1)
     - [Network with Layer Normalization + L2](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#2-network-with-layer-normalization--l2)
     - [Network with L1 + L2 + BN](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#3-network-with-l1--l2--bn)
+
+
+# About Our Code
+- [S6_Normalization_Techniques.ipynb](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S6/S6_Normalization_Techniques.ipynb) file performs the following:
+    - Loads mnist data and creates train and test dataloader
+    - Imports model from model.py
+    - Defines train, test and eval loops
+    - Define three models with different optimizers, loss and normalization.
+    - Train three different models with different params
+    - Collect accuracy and losses for all three and plot evaluation actual vs predicted images (for wrongly classified mnist class).
+    - Plot training and test losses and accuracies for three different models
+- [model.py](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S6/model.py) file performs the following:
+    - Defines a common Net() class for different normalization. It takes in input param which is type of normalization and creates a classification with earlier best performing model with multiple conv blocks.
+    - Defines a function to club conv layer with different normalization when normalization type is provided as argument.
+
 
 # Normalization & Types
 - In general, a normalization layer will try to mean-center and make feature maps have unit-variance.
@@ -75,18 +90,6 @@
 - For example,
 ![image](https://user-images.githubusercontent.com/46129975/121220796-941b3400-c8a2-11eb-828c-0a8fb94a8b4e.png)
 
-# About Our Code
-- [S6_Normalization_Techniques.ipynb](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S6/S6_Normalization_Techniques.ipynb) file performs the following:
-    - Loads mnist data and creates train and test dataloader
-    - Imports model from model.py
-    - Defines train, test and eval loops
-    - Define three models with different optimizers, loss and normalization.
-    - Train three different models with different params
-    - Collect accuracy and losses for all three and plot evaluation actual vs predicted images (for wrongly classified mnist class).
-    - plot training and test losses and accuracies for three different models
-- [model.py](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S6/model.py) file performs the following:
-    - Defines a common Net() class for different normalization. It takes in input param which is type of normalization and creates a classification with earlier best performing model with multiple conv blocks.
-    - Defines a function to club conv layer with different normalization when normalization type is provided as argument
 
 # Our Finidings for different Normalization Techniques
 - We normalize the data so that calculations are smaller and also to make features common.
