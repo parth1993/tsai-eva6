@@ -6,6 +6,8 @@ GROUPS = [2, 2, 2, 2, 2, 2, 2]
 GROUP_COUNTER = 0
 
 def fuse_conv_and_normalization(conv, normalization_type):
+    global GROUP_COUNTER
+    global GROUPS
     fusedconv = torch.nn.Conv2d(
         conv.in_channels,
         conv.out_channels,
