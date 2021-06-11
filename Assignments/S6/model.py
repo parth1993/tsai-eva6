@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-GROUPS = [2, 2, 2, 2, 2, 2, 2]
+GROUPS = [2, 2, 2, 2, 2, 2, 2] #Groups for group normalization for each conv block
 GROUP_COUNTER = 0
 
 def fuse_conv_and_normalization(conv, normalization_type):
@@ -32,6 +32,8 @@ class Net(nn.Module):
     def __init__(self, normalization_type, *args, **kwargs):
         super(Net, self).__init__()
         # RF = 1
+        global GROUP_COUNTER
+        GROUP_COUNTER = 0
 
         self.normalization_type = normalization_type
         self.conv1 = nn.Sequential(
