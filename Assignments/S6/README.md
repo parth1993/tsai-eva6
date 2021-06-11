@@ -14,12 +14,12 @@
     - [Batch Normalization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-batch-normalization)
     - [Layer Normalization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#2-layer-normalization)
     - [Group Normalization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#3-group-normalization)
-- [Our Finidings for different Normalization Techniques](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#our-finidings-for-different-normalization-techniques)
-- [Grpahs for Models with different Normalization and Regularization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#grpahs-for-models-with-different-normalization-and-regularization)
+- [Graphs for Models with different Normalization and Regularization](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#graphs-for-models-with-different-normalization-and-regularization)
     - [Training Loss per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-training-loss)
     - [Training Accuracy per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#3-training-accuracy)
     - [Test Loss per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#2-test-loss)
     - [Test Accuracy per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#4-test-accuracy)
+- [Our Finidings for different Normalization Techniques](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#our-finidings-for-different-normalization-techniques)
 - [Misclassified Images for each model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#misclassified-images-for-each-model)
     - [Network with Group Normalization + L1](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-network-with-group-normalization--l1)
     - [Network with Layer Normalization + L2](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#2-network-with-layer-normalization--l2)
@@ -95,16 +95,7 @@
 ![image](https://user-images.githubusercontent.com/46129975/121220796-941b3400-c8a2-11eb-828c-0a8fb94a8b4e.png)
 
 
-# Our Finidings for different Normalization Techniques
-- Looking at the testing graph, Batch normalization results into better performance as compared to layer and Group normalization for our model. Reason can be the following:
-    - BatchNorm works feature wise.
-    - Layer norm and groupnorm work image wise and they actually suppress important feature maps based on useless feature maps.
-    - So in case of layer and group norm, it will be difficult to assign weight to such feature map which can vary from image to image.
-    - Whereas in BatchNorm, if a feature map is normalized, it is normalized for all images, and backprop will take care in determining the importance of that feature.
-- Training time is bit lesser when used Normalization on data. It reduced calculations.
-- Model has converged faster. From around 14th epoch, it shows constant results.
-
-# Grpahs for Models with different Normalization and Regularization
+# Graphs for Models with different Normalization and Regularization
 ## 1. Training Loss
 ![image](https://user-images.githubusercontent.com/46129975/121721414-dd1cf380-cb01-11eb-9736-f061e4d3eace.png)
 
@@ -116,6 +107,15 @@
 
 ## 4. Test Accuracy
 ![image](https://user-images.githubusercontent.com/46129975/121721369-d0989b00-cb01-11eb-8815-3ecaa70148cc.png)
+
+# Our Finidings for different Normalization Techniques
+- Looking at the testing graph, Batch normalization results into better performance as compared to layer and Group normalization for our model. Reason can be the following:
+    - BatchNorm works feature wise.
+    - Layer norm and groupnorm work image wise and they actually suppress important feature maps based on useless feature maps.
+    - So in case of layer and group norm, it will be difficult to assign weight to such feature map which can vary from image to image.
+    - Whereas in BatchNorm, if a feature map is normalized, it is normalized for all images, and backprop will take care in determining the importance of that feature.
+- Training time is bit lesser when used Normalization on data. It reduced calculations.
+- Model has converged faster. From around 14th epoch, it shows constant results.
 
 # Misclassified Images for each model
 ## 1. Network with Group Normalization + L1
