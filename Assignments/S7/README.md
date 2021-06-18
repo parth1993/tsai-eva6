@@ -9,24 +9,12 @@
 # Table of Contents
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#table-of-contents)
-- [About Our Code](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#about-our-code)
 - [Data Augmentation Techniques Used](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7/#Data-Augmentation-Techniques-Used)
 - [Convolution & Types](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Convolution-&-Types)
 - [Graphs for Our Model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7/#Graphs-for-Model
 - [Model approach and takeaways](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Model-approach-and-takeaways)
 - [Misclassified Images for each model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Misclassified-images)
     
-# About Our Code
-- [S6_Normalization_Techniques.ipynb](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/S7_Convolution_Techniques.ipynb) file performs the following:
-    - Loads cifer data and creates train and test dataloader
-    - Imports model from model.py
-    - Defines train, test and eval loops
-    - Define three models with different optimizers, loss and normalization.
-    - Train three different models with different params
-    - Collect accuracy and losses for all three and plot evaluation actual vs predicted images (for wrongly classified mnist class).
-    - Plot training and test losses and accuracies for three different models
-- [model.py](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/model.py) file performs the following:
-    - Defines a Net() class. It defines a classification model with multiple conv blocks.
 
 # Data Augmentation Techniques Used
 - HorizontalFlip - Flip the input horizontally around the y-axis.
