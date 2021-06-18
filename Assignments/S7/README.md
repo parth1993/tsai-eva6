@@ -11,7 +11,7 @@
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#table-of-contents)
 - [Data Augmentation Techniques Used](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7/#Data-Augmentation-Techniques-Used)
 - [Convolution & Types](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Convolution-&-Types)
-- [Graphs for Our Model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7/#Graphs-for-Model
+- [Graphs for Our Model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7/#Graphs-for-Model) 
 - [Model approach and takeaways](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Model-approach-and-takeaways)
 - [Misclassified Images for each model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Misclassified-images)
     
