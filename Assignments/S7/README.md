@@ -10,6 +10,7 @@
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#table-of-contents)
 - [About Our Code](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#about-our-code)
+- [Data Augmentation Techniques Used]
 - [Convolution & Types](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#normalization--types)
     - [Dilation Convolution](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-batch-normalization)
     - [DepthWise Separable Convolution](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#2-layer-normalization)
@@ -33,6 +34,11 @@
 - [model.py](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/model.py) file performs the following:
     - Defines a Net() class. It defines a classification model with multiple conv blocks.
 
+# Data Augmentation Techniques Used
+- HorizontalFlip
+- ShiftScaleRotate
+- CoarseDropout
+- ToGray
 
 # Convolution & Types
 ## 1. Dilation Convolution
