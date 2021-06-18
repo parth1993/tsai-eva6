@@ -1,4 +1,4 @@
-# Assignment 6 - Late Assignment on Time
+# Assignment 7 - Late Assignment on Time
 
 # Group Members
 - Harshita Sharma - harshita23sharma@gmail.com
@@ -71,6 +71,3 @@
 - Initial model with standard convolution was giving the target accuracy of 85% but the number of parameters were high(500k parameters).
 - Using Depthwise Separable Convolution helped reduced the parameters and more fine tuning the model helped achieved the accuracy with more number of epochs.
 - Depthwise Separable Convolutions are an easy way to reduce the number of trainable parameters in a network at the cost of a small decrease in accuracy.
-
-# Misclassified Images for model
-![image](https://user-images.githubusercontent.com/46129975/121723564-4a318880-cb04-11eb-89d5-8fba9584c59e.png)
