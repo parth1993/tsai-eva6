@@ -10,17 +10,11 @@
 - [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/README.md#group-members)
 - [Table of Contents](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#table-of-contents)
 - [About Our Code](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#about-our-code)
-- [Data Augmentation Techniques Used]
-- [Convolution & Types](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#normalization--types)
-    - [Dilation Convolution](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-batch-normalization)
-    - [DepthWise Separable Convolution](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#2-layer-normalization)
-- [Graphs for Our Model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#graphs-for-models-with-different-normalization-and-regularization)
-    - [Training Loss per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#1-training-loss)
-    - [Training Accuracy per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#3-training-accuracy)
-    - [Test Loss per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#2-test-loss)
-    - [Test Accuracy per Epoch](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#4-test-accuracy)
-- [Our Finidings for different Convolution Techniques](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#our-finidings-for-different-normalization-techniques)
-- [Misclassified Images for each model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S6#misclassified-images-for-each-model)
+- [Data Augmentation Techniques Used](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7/#Data-Augmentation-Techniques-Used)
+- [Convolution & Types](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Convolution-&-Types)
+- [Graphs for Our Model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7/#Graphs-for-Model
+- [Model approach and takeaways](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Model-approach-and-takeaways)
+- [Misclassified Images for each model](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S7#Misclassified-images)
     
 # About Our Code
 - [S6_Normalization_Techniques.ipynb](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/S7_Convolution_Techniques.ipynb) file performs the following:
