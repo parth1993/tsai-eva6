@@ -55,17 +55,9 @@
 
 
 # Graphs for Model
-## 1. Training Loss
-![image](https://user-images.githubusercontent.com/46129975/121721414-dd1cf380-cb01-11eb-9736-f061e4d3eace.png)
+## Training Loss, Test Loss, Training Accuracy, Test Accuracy
+![graphs](https://user-images.githubusercontent.com/16293041/122614291-00b4e080-d0a4-11eb-9b4e-c83986c8b59e.png)
 
-## 2. Test Loss
-![image](https://user-images.githubusercontent.com/46129975/121721348-cb3b5080-cb01-11eb-992d-23ba3751d8a8.png)
-
-## 3. Training Accuracy
-![image](https://user-images.githubusercontent.com/46129975/121721399-d8583f80-cb01-11eb-98fc-56b7ab668685.png)
-
-## 4. Test Accuracy
-![image](https://user-images.githubusercontent.com/46129975/121721369-d0989b00-cb01-11eb-8815-3ecaa70148cc.png)
 
 # Model approach and takeaways:
 - Initial model with standard convolution was giving the target accuracy of 85% but the number of parameters were high(500k parameters).
