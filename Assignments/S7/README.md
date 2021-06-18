@@ -35,19 +35,24 @@
     - Defines a Net() class. It defines a classification model with multiple conv blocks.
 
 # Data Augmentation Techniques Used
-- HorizontalFlip
-- ShiftScaleRotate
-- CoarseDropout
-- ToGray
+- HorizontalFlip - Flip the input horizontally around the y-axis.
+- ShiftScaleRotate - Randomly apply affine transforms: translate, scale and rotate the input.
+- CoarseDropout - the technique of removing many small rectanges of similar size.
+- ToGray - Convert the input RGB image to grayscale. If the mean pixel value for the resulting image is greater than 127, invert the resulting grayscale image.
 
 # Convolution & Types
 ## 1. Dilation Convolution
+![image](https://user-images.githubusercontent.com/16293041/122604966-68fbc600-d094-11eb-80b2-c4a220865ee0.png)
 - A way of increasing the receptive field.
 - An alternative to max pool.
 - It gives broader perspective by integrating knowledge from the wider context. Like locating all similar features from image. Hence must be used with 3x3
 - Helps in reduction of size of channel
 ## 2. Depthwise Separable Convolution
--
+![image](https://user-images.githubusercontent.com/16293041/122604869-42d62600-d094-11eb-9594-aef642247f9c.png)
+- Split the input into channels, and split the filter into channels (the number of channels between input and filter must match).
+- For each of the channels, convolve the input with the corresponding filter, producing an output tensor (2D).
+- Stack the output tensors back together.
+
 
 # Graphs for Model
 ## 1. Training Loss
