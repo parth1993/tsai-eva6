@@ -30,14 +30,16 @@
     - Train three different models with different params
     - Collect accuracy and losses for all three and plot evaluation actual vs predicted images (for wrongly classified mnist class).
     - Plot training and test losses and accuracies for three different models
-- [model.py](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S6/model.py) file performs the following:
-    - Defines a Net() class for different normalization. It takes in input param which is type of normalization and creates a classification with earlier best performing model with multiple conv blocks.
-    - Defines a function to club conv layer with different normalization when normalization type is provided as argument.
+- [model.py](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S7/model.py) file performs the following:
+    - Defines a Net() class. It defines a classification model with multiple conv blocks.
 
 
 # Convolution & Types
 ## 1. Dilation Convolution
-- 
+- A way of increasing the receptive field.
+- An alternative to max pool.
+- It gives broader perspective by integrating knowledge from the wider context. Like locating all similar features from image. Hence must be used with 3x3
+- Helps in reduction of size of channel
 ## 2. Depthwise Separable Convolution
 -
 
