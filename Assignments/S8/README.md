@@ -3,7 +3,7 @@
 ## Late Assignment on Time
 
 ### [Link to repo for files like utils, main, gradcam, etc,.](https://github.com/amanjain487/CIFAR_10)
-
+### [Link to Colab file on Github](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/Advanced%20Training%20Concepts.ipynb)
 
 ## Group Members
 - Harshita Sharma - harshita23sharma@gmail.com
