@@ -1,5 +1,16 @@
 # Advanced Training Concepts
 
+## Late Assignment on Time
+
+## Group Members
+- Harshita Sharma - harshita23sharma@gmail.com
+- Pankaj S K - pankajsureshkumar7@gmail.com
+- Avichal Jain - avichaljain1997@gmail.com
+- Aman Kumar - aman487jain@gmail.com
+
+# Table of Contents
+
+
 ## Objective
 - Train for 40 Epochs
 - Display 20 misclassified images
