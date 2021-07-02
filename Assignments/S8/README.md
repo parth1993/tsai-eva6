@@ -8,8 +8,17 @@
 - Avichal Jain - avichaljain1997@gmail.com
 - Aman Kumar - aman487jain@gmail.com
 
-# Table of Contents
-
+## Table of Contents
+- [Group Members](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#group-members)
+- [Table of Contents](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#table-of-contents)
+- [Objective](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#objective)
+- [Parameters and Hyperparameters](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#parameters-and-hyperparameters)
+- [Results](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#results)
+- [Graphs for Losses and Accuracies](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#graphs-for-losses-and-accuracies)
+- [Correctly Classified Images](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#correctly-classified-images)
+- [GradCAM for Correctly Classified Images](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#gradcam-for-correctly-classified-images)
+- [Incorrectly Classified Images](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#incorrectly-classified-images)
+- [GradCAM for Incorrectly Classified Images](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S8/README.md#gradcam-for-incorrectly-classified-images)
 
 ## Objective
 - Train for 40 Epochs
