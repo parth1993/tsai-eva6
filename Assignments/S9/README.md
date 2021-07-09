@@ -37,7 +37,4 @@
 - Epochs: 24
 
 ## Results
-- Best Accracy is 89.17% at 39th Epoch.
-
-## Graphs for Losses and Accuracies
-![image](https://user-images.githubusercontent.com/46129975/124268705-7e262980-db57-11eb-831e-fa0f1ab2c045.png)
+- Best Train Accracy is 94.0% and Test Accuracy is 89.18
