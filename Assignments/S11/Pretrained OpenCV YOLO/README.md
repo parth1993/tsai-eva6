@@ -11,8 +11,7 @@
 ## [Link to view the implementation]()
 
 ## Original Image
-file:///D:/Downloads/yolo_object_detection/img.jpeg
-![Uploading image.png…]()
+
 
 ## YOLO Annotated Image
 ![annotated_image](https://user-images.githubusercontent.com/46129975/126319049-16e29889-d230-471b-b231-805afe22da12.jpeg)
