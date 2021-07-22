@@ -1,6 +1,6 @@
 # Train YOLO on Custom Dataset
 
-### [Link to Colab file on Github](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S9/)
+### [Link to Colab file on Github](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S11/Train%20YOLO%20on%20Custom%20Dataset/Train_YOLOv3_on_Custom_Dataset.ipynb)
 
 ## Group Members
 - Harshita Sharma - harshita23sharma@gmail.com
@@ -24,7 +24,7 @@
   - boots
 - Run the model on a small video and upload it on youtube.
 
-## [Link to video uploaded on Youtube]()
+## [Link to video uploaded on Youtube](https://youtu.be/D4RQ7Rkrass)
 
 ## Model Output on Images collected by us
 |Hardhat|Vest|Boots|Mask|
