@@ -9,8 +9,12 @@
 - Aman Kumar - aman487jain@gmail.com
 
 ## Table of Contents
-- [Group Members]
-- [Table of Contents]
+- [Link to Colab file on Github](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S11/Train%20YOLO%20on%20Custom%20Dataset#link-to-colab-file-on-github)
+- [Group Members](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S11/Train%20YOLO%20on%20Custom%20Dataset#group-members)
+- [Table of Contents](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S11/Train%20YOLO%20on%20Custom%20Dataset#table-of-contents)
+- [Objective](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S11/Train%20YOLO%20on%20Custom%20Dataset#objective)
+- [Link to video uploaded on Youtube](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S11/Train%20YOLO%20on%20Custom%20Dataset#link-to-video-uploaded-on-youtube)
+- [Model Output on Images collected by us](https://github.com/amanjain487/tsai-eva6/tree/main/Assignments/S11/Train%20YOLO%20on%20Custom%20Dataset#model-output-on-images-collected-by-us)
 
 ## Objective
 - Train custom dataset which contains the following 4 classes.
