@@ -10,11 +10,10 @@
 
 ## [Link to view the implementation](https://github.com/amanjain487/tsai-eva6/blob/main/Assignments/S11/Pretrained%20OpenCV%20YOLO/yolo_object_detection.py)
 
-## Original Image
-![img](https://user-images.githubusercontent.com/46129975/126349294-9fc69079-3b24-4883-b9a3-ce4f69ab5a1c.jpg)
-
 ## YOLO Annotated Image
 ![annotated_image](https://user-images.githubusercontent.com/46129975/126319049-16e29889-d230-471b-b231-805afe22da12.jpeg)
+![harshita](https://user-images.githubusercontent.com/46129975/126825906-73995608-a803-421d-94e8-70307e87263f.jpg)
+![avichal_anno](https://user-images.githubusercontent.com/46129975/126825819-4847294f-1dae-4645-92bd-7cad3eaf5afe.jpeg)
 
 
 # Train YOLO on Custom Dataset
